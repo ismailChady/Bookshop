@@ -1,0 +1,12 @@
+<!ELEMENT bookshop (book+)>
+<!ELEMENT book (title, author, genre, price, year, isbn, stock, image, purchaseLink, description)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT purchaseLink (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
