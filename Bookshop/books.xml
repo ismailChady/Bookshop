@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<!DOCTYPE bookshop SYSTEM "bookshop.dtd">
 
 <bookshop>
     <book>
@@ -100,7 +102,7 @@
         <year>2019</year>
         <isbn>978-0-306-40607-7</isbn>
         <stock>14</stock>
-        <image>images/The_Silent_Patient.jpg</image>
+        <image>images/the_silent_patient.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>Theo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him....</description>
     </book>
@@ -218,9 +220,9 @@
 
                     After surviving the Purging Trials, Ordinary-born Paedyn Gray has killed the King and kickstarted a Resistance throughout the land. Now she’s running from the one person she had wanted to run to.
 
-                    Kai Azer is now Ilya’s Enforcer, loyal to his brother Kitt, the new King. He has vowed to find Paedyn and bring her to justice.
+                    Kai Azer is now Ilya's Enforcer, loyal to his brother Kitt, the new King. He has vowed to find Paedyn and bring her to justice.
 
-                    Across the deadly Scorches, and deep into the hostile city of Dor, Kai pursues the one person he wishes he didn’t have to. But in a city without Elites, the balance between the hunter and hunted shifts—and the battle between duty and desire is deadly.</description>
+                    Across the deadly Scorches, and deep into the hostile city of Dor, Kai pursues the one person he wishes he didn't have to. But in a city without Elites, the balance between the hunter and hunted shifts—and the battle between duty and desire is deadly.</description>
     </book>
 
     <book>
@@ -233,13 +235,13 @@
         <stock>20</stock>
         <image>images/the-cruel-prince.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
-        <description>Of course I want to be like them. They’re beautiful as blades forged in some divine fire. They will live forever.
+        <description>Of course I want to be like them. They're beautiful as blades forged in some divine fire. They will live forever.
 
                     And Cardan is even more beautiful than the rest. I hate him more than all the others. I hate him so much that sometimes when I look at him, I can hardly breathe.
 
                     Jude was seven when her parents were murdered and she and her two sisters were stolen away to live in the treacherous High Court of Faerie. Ten years later, Jude wants nothing more than to belong there, despite her mortality. But many of the fey despise humans. Especially Prince Cardan, the youngest and wickedest son of the High King.
 
-                    To win a place at the Court, she must defy him–and face the consequences.
+                    To win a place at the Court, she must defy him and face the consequences.
 
                     As Jude becomes more deeply embroiled in palace intrigues and deceptions, she discovers her own capacity for trickery and bloodshed. But as betrayal threatens to drown the Courts of Faerie in violence, Jude will need to risk her life in a dangerous alliance to save her sisters, and Faerie itself.</description>
     </book>
@@ -254,7 +256,7 @@
         <stock>12</stock>
         <image>images/onyx-storm.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
-        <description>After nearly eighteen months at Basgiath War College, Violet Sorrengail knows there’s no more time for lessons. No more time for uncertainty. Because the battle has truly begun, and with enemies closing in from outside their walls and within their ranks, it’s impossible to know who to trust.
+        <description>After nearly eighteen months at Basgiath War College, Violet Sorrengail knows there's no more time for lessons. No more time for uncertainty. Because the battle has truly begun, and with enemies closing in from outside their walls and within their ranks, it’s impossible to know who to trust.
 
                     Now Violet must journey beyond the failing Aretian wards to seek allies from unfamiliar lands to stand with Navarre. The trip will test every bit of her wit, luck, and strength, but she will do anything to save what she loves—her dragons, her family, her home, and him.
 
@@ -275,7 +277,7 @@
 
                     Twenty-year-old Violet Sorrengail was supposed to enter the Scribe Quadrant, living a quiet life among books and history. Now, the commanding general—also known as her tough-as-talons mother—has ordered Violet to join the hundreds of candidates striving to become the elite of Navarre: dragon riders.
 
-                    But when you're smaller than everyone else and your body is brittle, death is only a heartbeat away...because dragons don’t bond to “fragile” humans. They incinerate them.
+                    But when you're smaller than everyone else and your body is brittle, death is only a heartbeat away...because dragons don't bond to “fragile” humans. They incinerate them.
 
                         With fewer dragons willing to bond than cadets, most would kill Violet to better their own chances of success. The rest would kill her just for being her mother’s daughter—like Xaden Riorson, the most powerful and ruthless wingleader in the Riders Quadrant.
 
@@ -319,7 +321,7 @@
 
                     Power is much easier to acquire than it is to hold onto. Jude learned this lesson when she released her control over the wicked king, Cardan, in exchange for immeasurable power.
 
-                    Now as the exiled mortal Queen of Faerie, Jude is powerless and left reeling from Cardan’s betrayal. She bides her time determined to reclaim everything he took from her. Opportunity arrives in the form of her deceptive twin sister, Taryn, whose mortal life is in peril.
+                    Now as the exiled mortal Queen of Faerie, Jude is powerless and left reeling from Cardan's betrayal. She bides her time determined to reclaim everything he took from her. Opportunity arrives in the form of her deceptive twin sister, Taryn, whose mortal life is in peril.
 
                     Jude must risk venturing back into the treacherous Faerie Court, and confront her lingering feelings for Cardan, if she wishes to save her sister. But Elfhame is not as she left it. War is brewing. As Jude slips deep within enemy lines she becomes ensnared in the conflict’s bloody politics.
 
@@ -561,7 +563,7 @@
         <year>2022</year>
         <isbn>978-0-306-40628-7</isbn>
         <stock>20</stock>
-        <image>images/Hunting-Adeline.jpg</image>
+        <image>images/hunting-adeline.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>The Diamond
 
@@ -595,7 +597,7 @@
         <year>2021</year>
         <isbn>978-0-306-40629-7</isbn>
         <stock>21</stock>
-        <image>images/Haunting-Adeline.jpg</image>
+        <image>images/haunting-adeline.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>The Manipulator
 
@@ -626,7 +628,7 @@
         <year>2022</year>
         <isbn>978-0-306-40630-7</isbn>
         <stock>21</stock>
-        <image>images/God-of-Malice.jpg</image>
+        <image>images/god-of-malice.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>I caught the attention of a monster.
                     I didn't ask for it.
@@ -649,7 +651,7 @@
         <year>2022</year>
         <isbn>978-0-306-40631-7</isbn>
         <stock>21</stock>
-        <image>images/God-of-pain.jpg</image>
+        <image>images/god-of-pain.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>I made a terrible mistake.
                     Being a mafia princess, I knew my fate was already decided.
@@ -671,7 +673,7 @@
         <year>2022</year>
         <isbn>978-0-306-40632-7</isbn>
         <stock>20</stock>
-        <image>images/God-of-Wrath.jpg</image>
+        <image>images/god-of-wrath.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>When Cecily Knight sneaks into the Heathen Club's initiation on behalf of a rival gang, she's confident she can slip through the night unnoticed.
                     But the moment she steps into their den, she knows she's made a fatal error. The devil has seen her.
@@ -691,7 +693,7 @@
         <year>2018</year>
         <isbn>978-0-306-40633-7</isbn>
         <stock>13</stock>
-        <image>images/The-Sweetest-Oblivion.jpg</image>
+        <image>images/the-sweetest-oblivion.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>She's a romantic at heart, living in the most unromantic of worlds... Nicknamed Sweet Abelli for her docile nature, Elena smiles on cue and has a charming response for everything. She's the favored daughter, the perfect mafia principessa... or was. Now, all she can see in the mirror's reflection is blood staining her hands like crimson paint. They say first impressions are everything...
 
@@ -706,7 +708,7 @@
         <year>2019</year>
         <isbn>978-0-306-40634-7</isbn>
         <stock>13</stock>
-        <image>images/The-Maddest-Obsession.jpg</image>
+        <image>images/the-maddest-obsession.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>She fears the dark.
                     He rules it.
@@ -732,7 +734,7 @@
         <year>2022</year>
         <isbn>978-0-306-40636-7</isbn>
         <stock>16</stock>
-        <image>images/The-Sinner.jpg</image>
+        <image>images/the-sinner.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>LITTLE DEMON
                     I was raised in a world where money and power are at your fingertips. My father is a LORD, a very respected member of a secret society that knows no bounds. When tragedy struck my family, we discovered we weren't untouchable. Just when I thought life couldn't get any worse, I was shown what hell is really like. Then he came and saved me. The devil disguised as my personal hero. But of course, nothing is for free. Not when a soul is up for grabs.
@@ -801,7 +803,7 @@
         <year>2026</year>
         <isbn>978-0-306-40640-7</isbn>
         <stock>18</stock>
-        <image>images/Better-Than-a-T-ouchdown.jpg</image>
+        <image>images/better-than-a-touchdown.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>From Philadelphia Eagles quarterback Jalen Hurts comes an empowering story about friendship, community, and the power of teamwork to achieve the greatest goals. Jalen is so excited for the new school year because this is the year he'll finally get to try out for the football team!</description>
     </book>
@@ -814,7 +816,7 @@
         <year>2026</year>
         <isbn>978-0-306-40641-7</isbn>
         <stock>23</stock>
-        <image>images/The-Adventures-of-Tubby-Nugget.jpg</image>
+        <image>images/the-adventures-of-tubby-nugget.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>Tubby refuses the "dunking" ceremony, a tradition on Planet Nüg that turns small nugs into golden, serious, and limited adults, opting instead for a fun, creative life.</description>
     </book>
@@ -827,7 +829,7 @@
         <year>2015</year>
         <isbn>978-0-306-40642-7</isbn>
         <stock>20</stock>
-        <image>images/Mother-Bruce.jpg</image>
+        <image>images/mother-bruce.jpg</image>
         <purchaseLink>contact.html</purchaseLink>
         <description>Bruce the bear likes to keep to himself. That, and eat eggs. But when his hard-boiled goose eggs turn out to be real, live goslings, he starts to lose his appetite. And even worse, the goslings are convinced he's their mother. Bruce tries to get the geese to go south, but he can't seem to rid himself of his new companions. What's a bear to do?</description>
     </book>
