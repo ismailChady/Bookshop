@@ -1,8 +1,10 @@
+/* removes default browser spacing */
 * {
     margin: 0;
     padding: 0;
 }
 
+/* Video fills the whole viewport and sits behind everything else */
 video {
     position: fixed;
     top: 0;
@@ -12,11 +14,14 @@ video {
     object-fit: cover;
     z-index: -1;
 }
+
+/* Nav  */
 #Nav img {
     width: 30px;
     height: 30px;
 }
 
+/* Fixed top-right,stays visible while the page content sits below */
 #Nav {
     position: fixed;
     top: 20px;
@@ -27,7 +32,7 @@ video {
     list-style: none;
     display: flex;
     gap: 30px;
-    
+
 }
 
 #Nav ul li {
@@ -43,6 +48,7 @@ video {
     margin-left: 8px;
 }
 
+/* Logo position */
 #Logo {
     position: fixed;
     top: 10px;
@@ -52,6 +58,9 @@ video {
     width: 45px;
     height: 45px;
 }
+
+/* Homepage*/
+/* Center using position fixed and transform translate to centered on all screen sizes */
 #Shopbutton {
     position: fixed;
     top: 50%;
@@ -66,6 +75,7 @@ video {
     margin-bottom: 20px;
 }
 
+/* used a border to style the Shop link as a button */
 #Shopbutton a {
     color: #090909;
     text-decoration: none;
@@ -73,6 +83,9 @@ video {
     padding: 10px 30px;
     font-size: 1em;
 }
+
+/* Contact page */
+/* Same centering approach as the homepage,laid out as a two-column flex row */
 #contactpage {
     position: fixed;
     top: 50%;
@@ -82,7 +95,7 @@ video {
     gap: 80px;
     align-items: center;
 }
-
+/* Contact h1 on the left side */
 #contactleft h1 {
     font-size: 2.5em;
     color: #0d0c0c;
@@ -95,12 +108,14 @@ video {
     margin-bottom: 10px;
 }
 
+/* Form fields stacked vertically on the right side */
 #contactright {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
+/* Transparent background */
 #contactright input {
     padding: 10px;
     font-size: 1em;
@@ -120,6 +135,7 @@ video {
     height: 120px;
 }
 
+/* styled the send link to look like a button using background color and padding */
 #contactright a {
     background-color: #795b3285;
     color: #000000;
