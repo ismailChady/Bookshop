@@ -139,7 +139,7 @@
               <h1>Bookshop Catalogue</h1>
               <p>Explore our available books by genre, price, stock, and description.</p>
             </div>
-            <a class="home-link" href="index.html">Back to Homepage</a>
+            <a class="home-link" href="../index.html">Back to Homepage</a>
           </div>
           
           <div class="info-box">
