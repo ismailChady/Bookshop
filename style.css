@@ -295,3 +295,22 @@ main{
   flex-direction: column;
   align-items: center;
 }
+
+.xml-catalog-link {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.xml-catalog-link a {
+    display: inline-block;
+    background-color: #5c3d2e;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.xml-catalog-link a:hover {
+    background-color: #8b5e3c;
+}

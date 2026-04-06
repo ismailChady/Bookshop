@@ -3,835 +3,549 @@
 <!DOCTYPE bookshop SYSTEM "bookshop.dtd">
 
 <bookshop>
-    <book>
+    <book id="b1">
         <title>The Mountain Is You</title>
         <author>Brianna Wiest</author>
         <genre>Self-Help / Psychology</genre>
         <price>750.00</price>
         <year>2020</year>
         <isbn>978-0-306-40600-7</isbn>
-        <stock>10</stock>
+        <quantity>10</quantity>
         <image>images/the-mountain-is-you.png</image>
-        <purchaseLink>../contact.html</purchaseLink>
+        <link>../contact.html</link>
         <description>This is a book about self-sabotage. Why we do it, when we do it, and how to stop doing it—for good. Coexisting but conflicting needs create self-sabotaging behaviors. This is why we resist efforts to change, often until they feel completely futile. But by extracting crucial insight from our most damaging habits, building emotional intelligence by better understanding our brains and bodies, releasing past experiences at a cellular level, and learning to act as our highest potential future selves, we can step out of our own way and into our potential. For centuries, the mountain has been used as a metaphor for the big challenges we face, especially ones that seem impossible to overcome. To scale our mountains, we actually have to do the deep internal work of excavating trauma, building resilience, and adjusting how we show up for the climb. In the end, it is not the mountain we master, but ourselves.</description>
     </book>
-
-    <book>
+    
+    <book id="b2">
         <title>Atomic Habits</title>
         <author>James Clear</author>
         <genre>Self-Help / Psychology</genre>
         <price>935.00</price>
         <year>2018</year>
         <isbn>978-0-306-40601-7</isbn>
-        <stock>18</stock>
+        <quantity>18</quantity>
         <image>images/atomic-habits.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
+        <link>../contact.html</link>
         <description>No matter your goals, Atomic Habits offers a proven framework for improving—every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.</description>
     </book>
-
-    <book>
-        <title>The Psychology of Money</title>
+    
+    <book id="b3">
+        <title>The Psychology Of Money</title>
         <author>Morgan Housel</author>
         <genre>Self-Help / Psychology</genre>
         <price>1501.50</price>
         <year>2020</year>
         <isbn>978-0-306-40602-7</isbn>
-        <stock>20</stock>
+        <quantity>20</quantity>
         <image>images/the-psychology-of-money.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people. In The Psychology of Money, award-winning author Morgan Housel shares 19 short stories exploring the different ways people think about money and teaches you how to make better sense of one of life’s most important topics. </description>
+        <link>../contact.html</link>
+        <description>Doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people. In The Psychology of Money, award-winning author Morgan Housel shares 19 short stories exploring the different ways people think about money and teaches you how to make better sense of one of life’s most important topics.</description>
     </book>
-
-    <book>
+    
+    <book id="b4">
         <title>The Let Them Theory</title>
         <author>Mel Robbins</author>
         <genre>Self-Help / Psychology</genre>
         <price>1260.05</price>
         <year>2024</year>
         <isbn>978-0-306-40603-7</isbn>
-        <stock>22</stock>
+        <quantity>22</quantity>
         <image>images/the-let-them-theory.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
+        <link>../contact.html</link>
         <description>If you've ever felt stuck, overwhelmed, or frustrated with where you are, the problem isn't you. The problem is the power you give to other people. Two simple words—Let Them—will set you free. Free from the opinions, drama, and judgments of others. Free from the exhausting cycle of trying to manage everything and everyone around you. The Let Them Theory puts the power to create a life you love back in your hands—and this book will show you exactly how to do it.</description>
     </book>
-
-    <book>
-        <title>The Subtle Art of Not Giving A F*ck</title>
+    
+    <book id="b5">
+        <title>The Subtle Art Of Not Giving A F*ck</title>
         <author>Mark Manson</author>
         <genre>Self-Help / Psychology</genre>
         <price>1300.00</price>
         <year>2016</year>
         <isbn>978-0-306-40604-7</isbn>
-        <stock>10</stock>
+        <quantity>10</quantity>
         <image>images/the-subtle-art-of-not-giving-a-fuck.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
+        <link>../contact.html</link>
         <description>There are only so many things we can give a f**k about so we need to figure out which ones really matter, Manson makes clear. While money is nice, caring about what you do with your life is better, because true wealth is about experience. A much-needed grab-you-by-the-shoulders-and-look-you-in-the-eye moment of real-talk, filled with entertaining stories and profane, ruthless humor, The Subtle Art of Not Giving a F**k is a refreshing slap for a generation to help them lead contented, grounded lives.</description>
     </book>
-
-    <book>
+    
+    <book id="b6">
         <title>Ikigai</title>
         <author>Héctor García and Francesc Miralles</author>
         <genre>Self-Help / Psychology</genre>
         <price>550</price>
         <year>2016</year>
         <isbn>978-0-306-40605-7</isbn>
-        <stock>12</stock>
+        <quantity>12</quantity>
         <image>images/ikigai.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>According to the Japanese, everyone has an ikigai—a reason for living. And according to the residents of the Japanese village with the world’s longest-living people, finding it is the key to a happier and longer life. Having a strong sense of ikigai—where what you love, what you’re good at, what you can get paid for, and what the world needs all overlap—means that each day is infused with meaning. It’s the reason we get up in the morning. It’s also the reason many Japanese never really retire (in fact there’s no word in Japanese that means retire in the sense it does in English): They remain active and work at what they enjoy, because they’ve found a real purpose in life—the happiness of always being busy.</description>
+        <link>../contact.html</link>
+        <description>According to the Japanese, everyone has an ikigai—a reason for living. And according to the residents of the Japanese village with the world’s longest-living people, finding it is the key to a happier and longer life. Having a strong sense of ikigai—where what you love, what you’re good at, what you can get paid for, and what the world needs all overlap—means that each day is infused with meaning. It’s the reason we get up in the morning. It’s also the reason many Japanese never really retire: they remain active and work at what they enjoy, because they’ve found a real purpose in life.</description>
     </book>
-
-    <book>
+    
+    <book id="b7">
         <title>Everything Is F*cked</title>
         <author>Mark Manson</author>
         <genre>Self-Help / Psychology</genre>
         <price>1550</price>
         <year>2019</year>
         <isbn>978-0-306-40606-7</isbn>
-        <stock>11</stock>
+        <quantity>11</quantity>
         <image>images/everything-is-fucked.png</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>In Everthing Is F*cked, Manson turns his gaze from the inevitable flaws within each individual self to the endless calamities taking place in the world around us. Drawing from the pool of psychological research on these topics, as well as the timeless wisdom of philosophers such as Plato, Nietzsche, and Tom Waits, he dissects religion and politics and the uncomfortable ways they have come to resemble one another. He looks at our relationships with money, entertainment and the internet, and how too much of a good thing can psychologically eat us alive. He openly defies our definitions of faith, happiness, freedom—and even of hope itself.</description>
+        <link>../contact.html</link>
+        <description>In Everything Is F*cked, Manson turns his gaze from the inevitable flaws within each individual self to the endless calamities taking place in the world around us. Drawing from psychological research and philosophy, he examines faith, happiness, freedom, hope, money, entertainment, and the internet.</description>
     </book>
-
-    <book>
+    
+    <book id="b8">
         <title>The Silent Patient</title>
         <author>Alex Michaelides</author>
         <genre>Mystery</genre>
         <price>900.00</price>
         <year>2019</year>
         <isbn>978-0-306-40607-7</isbn>
-        <stock>14</stock>
+        <quantity>14</quantity>
         <image>images/the_silent_patient.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Theo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him....</description>
+        <link>../contact.html</link>
+        <description>Theo Faber is a criminal psychotherapist who has waited a long time for the opportunity to work with Alicia. His determination to get her to talk and unravel the mystery of why she shot her husband takes him down a twisting path into his own motivations—a search for the truth that threatens to consume him.</description>
     </book>
-
-    <book>
-        <title>A Good Girl's Guide to Murder</title>
+    
+    <book id="b9">
+        <title>A Good Girl's Guide To Murder</title>
         <author>Holly Jackson</author>
         <genre>Mystery</genre>
         <price>600.00</price>
         <year>2019</year>
         <isbn>978-0-306-40608-7</isbn>
-        <stock>8</stock>
+        <quantity>8</quantity>
         <image>images/a-good-girls-guide-to-murder.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>The case is closed. Five years ago, schoolgirl Andie Bell was murdered by Sal Singh. The police know he did it. Everyone in town knows he did it. But having grown up in the same small town that was consumed by the crime, Pippa Fitz-Amobi isn't so sure. When she chooses the case as the topic for her final project, she starts to uncover secrets that someone in town desperately wants to stay hidden. And if the real killer is still out there, how far will they go to keep Pip from the truth…?</description>
+        <link>../contact.html</link>
+        <description>The case is closed. Five years ago, schoolgirl Andie Bell was murdered by Sal Singh. The police know he did it. Everyone in town knows he did it. But Pippa Fitz-Amobi isn't so sure. When she chooses the case as the topic for her final project, she starts to uncover secrets that someone in town desperately wants to stay hidden.</description>
     </book>
-
-    <book>
+    
+    <book id="b10">
         <title>Good Girl, Bad Blood</title>
         <author>Holly Jackson</author>
         <genre>Mystery</genre>
         <price>650.00</price>
         <year>2020</year>
         <isbn>978-0-306-40609-7</isbn>
-        <stock>15</stock>
+        <quantity>15</quantity>
         <image>images/good-girl-bad-blood.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Pip is not a detective anymore. With the help of Ravi Singh, she released a true-crime podcast about the murder case they solved together last year. The podcast has gone viral, yet Pip insists her investigating days are behind her. But she will have to break that promise when someone she knows goes missing. Jamie Reynolds has disappeared, on the very same night the town hosted a memorial for the sixth-year anniversary of the deaths of Andie Bell and Sal Singh. The police won't do anything about it. And if they won't look for Jamie then Pip will, uncovering more of her town's dark secrets along the way... and this time everyone is listening. But will she find him before it's too late?</description>
+        <link>../contact.html</link>
+        <description>Pip is not a detective anymore. Yet when someone she knows goes missing, she has to break that promise. Jamie Reynolds has disappeared, and the police won't do anything about it. Pip uncovers more of her town's dark secrets, and this time everyone is listening.</description>
     </book>
-
-    <book>
-        <title>One of Us Is Lying</title>
+    
+    <book id="b11">
+        <title>One Of Us Is Lying</title>
         <author>Karen M. McManus</author>
         <genre>Mystery</genre>
         <price>740.00</price>
         <year>2017</year>
         <isbn>978-0-306-40610-7</isbn>
-        <stock>19</stock>
+        <quantity>19</quantity>
         <image>images/one-of-us-is-lying.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Pay close attention and you might solve this.
-                    On Monday afternoon, five students at Bayview High walk into detention.
-                    Bronwyn, the brain, is Yale-bound and never breaks a rule.
-                    Addy, the beauty, is the picture-perfect homecoming princess.
-                    Nate, the criminal, is already on probation for dealing.
-                    Cooper, the athlete, is the all-star baseball pitcher.
-                    And Simon, the outcast, is the creator of Bayview High's notorious gossip app. Only, Simon never makes it out of that classroom. Before the end of detention Simon's dead. And according to investigators, his death wasn't an accident. On Monday, he died. But on Tuesday, he'd planned to post juicy reveals about all four of his high-profile classmates, which makes all four of them suspects in his murder. Or are they the perfect patsies for a killer who's still on the loose? Everyone has secrets, right? What really matters is how far you would go to protect them.</description>
+        <link>../contact.html</link>
+        <description>Five students walk into detention. Only four walk out alive. Simon, the creator of Bayview High's notorious gossip app, dies before the end of detention, and all four classmates become suspects in his murder. Everyone has secrets. What matters is how far you would go to protect them.</description>
     </book>
-
-    <book>
+    
+    <book id="b12">
         <title>We Were Liars</title>
         <author>E. Lockhart</author>
         <genre>Mystery</genre>
         <price>450.00</price>
         <year>2014</year>
         <isbn>978-0-306-40611-7</isbn>
-        <stock>12</stock>
+        <quantity>12</quantity>
         <image>images/we-were-liars.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>A beautiful and distinguished family.
-                    A private island.
-                    A brilliant, damaged girl; a passionate, political boy.
-                    A group of four friends—the Liars—whose friendship turns destructive.
-                    A revolution. An accident. A secret.
-                    Lies upon lies.
-                    True love.
-                    The truth.
-
-                    We Were Liars is a modern, sophisticated suspense novel from New York Times bestselling author, National Book Award finalist, and Printz Award honoree E. Lockhart.
-
-                    Read it.
-
-                    And if anyone asks you how it ends, just LIE.</description>
+        <link>../contact.html</link>
+        <description>A beautiful and distinguished family. A private island. A brilliant, damaged girl. A group of four friends—the Liars—whose friendship turns destructive. A secret. Lies upon lies. True love. The truth.</description>
     </book>
-
-    <book>
+    
+    <book id="b13">
         <title>Fearless</title>
         <author>Lauren Roberts</author>
         <genre>Fantasy Romance</genre>
         <price>650.00</price>
         <year>2025</year>
         <isbn>978-0-306-40612-7</isbn>
-        <stock>18</stock>
+        <quantity>18</quantity>
         <image>images/fearless.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>With a decision looming, Paedyn battles between her head, her heart, and the hidden trials she now faces. Through it all, Kai Azer fights to call her his, even if it means defying his king. Are vows strong enough to unite a kingdom? Or will betrayal break them? The choice between sacrifice and self has never been more difficult . . . or deadly.</description>
+        <link>../contact.html</link>
+        <description>With a decision looming, Paedyn battles between her head, her heart, and the hidden trials she now faces. Through it all, Kai Azer fights to call her his, even if it means defying his king. Are vows strong enough to unite a kingdom? Or will betrayal break them?</description>
     </book>
-
-    <book>
+    
+    <book id="b14">
         <title>Powerless</title>
         <author>Lauren Roberts</author>
         <genre>Fantasy Romance</genre>
         <price>700.00</price>
         <year>2023</year>
         <isbn>978-0-306-40613-7</isbn>
-        <stock>14</stock>
+        <quantity>14</quantity>
         <image>images/powerless.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Surviving in the slums as an Ordinary is no simple task, and Paedyn knows this better than most. Having been trained by her father to be overly observant since she was a child, Paedyn poses as a Psychic in the crowded city, blending in with the Elites as best she can in order to stay alive and out of trouble. Easier said than done.
-
-                    When Paeydn unsuspectingly saves one of Ilyas princes, she finds herself thrown into the Purging Trials. The brutal competition exists to showcase the Elites’ powers—the very thing Paedyn lacks. If the Trials and the opponents within them don’t kill her, the prince she’s fighting feelings for certainly will if he discovers what she is—completely Ordinary.</description>
+        <link>../contact.html</link>
+        <description>Surviving in the slums as an Ordinary is no simple task. Paedyn poses as a Psychic to stay alive, but when she saves one of Ilya's princes, she is thrown into the Purging Trials—a brutal competition meant for the Elites whose powers she does not possess.</description>
     </book>
-
-    <book>
+    
+    <book id="b15">
         <title>Reckless</title>
         <author>Lauren Roberts</author>
         <genre>Fantasy Romance</genre>
         <price>750.00</price>
         <year>2024</year>
         <isbn>978-0-306-40614-7</isbn>
-        <stock>17</stock>
+        <quantity>17</quantity>
         <image>images/reckless.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>The kingdom of Ilya is in turmoil…
-
-                    After surviving the Purging Trials, Ordinary-born Paedyn Gray has killed the King and kickstarted a Resistance throughout the land. Now she’s running from the one person she had wanted to run to.
-
-                    Kai Azer is now Ilya's Enforcer, loyal to his brother Kitt, the new King. He has vowed to find Paedyn and bring her to justice.
-
-                    Across the deadly Scorches, and deep into the hostile city of Dor, Kai pursues the one person he wishes he didn't have to. But in a city without Elites, the balance between the hunter and hunted shifts—and the battle between duty and desire is deadly.</description>
+        <link>../contact.html</link>
+        <description>The kingdom of Ilya is in turmoil. After surviving the Purging Trials, Paedyn Gray has killed the King and started a Resistance. Now she is running from Kai Azer, who has vowed to find her and bring her to justice, even though duty and desire are at war within him.</description>
     </book>
-
-    <book>
+    
+    <book id="b16">
         <title>The Cruel Prince</title>
         <author>Holly Black</author>
         <genre>Fantasy Romance</genre>
         <price>600.00</price>
         <year>2018</year>
         <isbn>978-0-306-40615-7</isbn>
-        <stock>20</stock>
+        <quantity>20</quantity>
         <image>images/the-cruel-prince.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Of course I want to be like them. They're beautiful as blades forged in some divine fire. They will live forever.
-
-                    And Cardan is even more beautiful than the rest. I hate him more than all the others. I hate him so much that sometimes when I look at him, I can hardly breathe.
-
-                    Jude was seven when her parents were murdered and she and her two sisters were stolen away to live in the treacherous High Court of Faerie. Ten years later, Jude wants nothing more than to belong there, despite her mortality. But many of the fey despise humans. Especially Prince Cardan, the youngest and wickedest son of the High King.
-
-                    To win a place at the Court, she must defy him and face the consequences.
-
-                    As Jude becomes more deeply embroiled in palace intrigues and deceptions, she discovers her own capacity for trickery and bloodshed. But as betrayal threatens to drown the Courts of Faerie in violence, Jude will need to risk her life in a dangerous alliance to save her sisters, and Faerie itself.</description>
+        <link>../contact.html</link>
+        <description>Jude was seven when her parents were murdered and she and her sisters were taken to live in the High Court of Faerie. Ten years later, she wants nothing more than to belong there, even though she is mortal. To win a place at court, she must defy Prince Cardan and face the consequences.</description>
     </book>
-
-    <book>
+    
+    <book id="b17">
         <title>Onyx Storm</title>
         <author>Rebecca Yarros</author>
         <genre>Fantasy Romance</genre>
         <price>800.00</price>
         <year>2025</year>
         <isbn>978-0-306-40616-7</isbn>
-        <stock>12</stock>
+        <quantity>12</quantity>
         <image>images/onyx-storm.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>After nearly eighteen months at Basgiath War College, Violet Sorrengail knows there's no more time for lessons. No more time for uncertainty. Because the battle has truly begun, and with enemies closing in from outside their walls and within their ranks, it’s impossible to know who to trust.
-
-                    Now Violet must journey beyond the failing Aretian wards to seek allies from unfamiliar lands to stand with Navarre. The trip will test every bit of her wit, luck, and strength, but she will do anything to save what she loves—her dragons, her family, her home, and him.
-
-                    Even if it means keeping a secret so big, it could destroy everything. They need an army. They need power. They need magic. And they need the one thing only Violet can find—the truth. But a storm is coming...and not everyone can survive its wrath.</description>
+        <link>../contact.html</link>
+        <description>After nearly eighteen months at Basgiath War College, Violet Sorrengail knows there is no more time for lessons. She must journey beyond the failing wards to seek allies from unfamiliar lands and uncover a truth that may save everything she loves.</description>
     </book>
-
-    <book>
+    
+    <book id="b18">
         <title>Fourth Wing</title>
         <author>Rebecca Yarros</author>
         <genre>Fantasy Romance</genre>
         <price>650.00</price>
         <year>2023</year>
         <isbn>978-0-306-40617-7</isbn>
-        <stock>17</stock>
+        <quantity>17</quantity>
         <image>images/fourth-wing.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Enter the brutal and elite world of a war college for dragon riders...
-
-                    Twenty-year-old Violet Sorrengail was supposed to enter the Scribe Quadrant, living a quiet life among books and history. Now, the commanding general—also known as her tough-as-talons mother—has ordered Violet to join the hundreds of candidates striving to become the elite of Navarre: dragon riders.
-
-                    But when you're smaller than everyone else and your body is brittle, death is only a heartbeat away...because dragons don't bond to “fragile” humans. They incinerate them.
-
-                        With fewer dragons willing to bond than cadets, most would kill Violet to better their own chances of success. The rest would kill her just for being her mother’s daughter—like Xaden Riorson, the most powerful and ruthless wingleader in the Riders Quadrant.
-
-                    She'll need every edge her wits can give her just to see the next sunrise.
-
-                    Yet, with every day that passes, the war outside grows more deadly, the kingdom's protective wards are failing, and the death toll continues to rise. Even worse, Violet begins to suspect leadership is hiding a terrible secret.
-
-                    Friends, enemies, lovers. Everyone at Basgiath War College has an agenda—because once you enter, there are only two ways out: graduate or die</description>
+        <link>../contact.html</link>
+        <description>Enter the brutal and elite world of a war college for dragon riders. Violet Sorrengail was supposed to live a quiet life among books, but instead must compete in a deadly Riders Quadrant where dragons, enemies, and secrets threaten her survival every day.</description>
     </book>
-
-    <book>
+    
+    <book id="b19">
         <title>The Wicked King</title>
         <author>Holly Black</author>
         <genre>Fantasy Romance</genre>
         <price>550.00</price>
         <year>2019</year>
         <isbn>978-0-306-40619-7</isbn>
-        <stock>21</stock>
+        <quantity>21</quantity>
         <image>images/the-wicked-king.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>You must be strong enough to strike and strike and strike again without tiring.
-
-                    The first lesson is to make yourself strong.
-
-                    After the jaw-dropping revelation that Oak is the heir to Faerie, Jude must keep her brother safe. To do so, she has bound the wicked king, Cardan, to her, and made herself the power behind the throne. Navigating the constantly shifting political alliances of Faerie would be difficult enough if Cardan were easy to control. But he does everything in his power to humiliate and undermine her even as his fascination with her remains undiminished.
-
-                    When it becomes all too clear that someone close to Jude means to betray her, threatening her own life and the lives of everyone she loves, Jude must uncover the traitor and fight her own complicated feelings for Cardan to maintain control as a mortal in a Faerie world.</description>
+        <link>../contact.html</link>
+        <description>After the revelation that Oak is the heir to Faerie, Jude must keep her brother safe while controlling the wicked king, Cardan. But the politics of Faerie are dangerous, and betrayal threatens everything she loves.</description>
     </book>
-
-    <book>
-        <title>The Queen of Nothing</title>
+    
+    <book id="b20">
+        <title>The Queen Of Nothing</title>
         <author>Holly Black</author>
         <genre>Fantasy Romance</genre>
         <price>575.00</price>
         <year>2019</year>
         <isbn>978-0-306-40620-7</isbn>
-        <stock>18</stock>
+        <quantity>18</quantity>
         <image>images/the-queen-of-nothing.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>He will be destruction of the crown and the ruination of the throne.
-
-                    Power is much easier to acquire than it is to hold onto. Jude learned this lesson when she released her control over the wicked king, Cardan, in exchange for immeasurable power.
-
-                    Now as the exiled mortal Queen of Faerie, Jude is powerless and left reeling from Cardan's betrayal. She bides her time determined to reclaim everything he took from her. Opportunity arrives in the form of her deceptive twin sister, Taryn, whose mortal life is in peril.
-
-                    Jude must risk venturing back into the treacherous Faerie Court, and confront her lingering feelings for Cardan, if she wishes to save her sister. But Elfhame is not as she left it. War is brewing. As Jude slips deep within enemy lines she becomes ensnared in the conflict’s bloody politics.
-
-                    And, when a dormant yet powerful curse is unleashed, panic spreads throughout the land, forcing her to choose between her ambition and her humanity…</description>
+        <link>../contact.html</link>
+        <description>Jude, now the exiled mortal Queen of Faerie, is powerless after Cardan's betrayal. When opportunity arrives, she risks venturing back into Elfhame, where war is brewing and she must choose between her ambition and her humanity.</description>
     </book>
-
-    <book>
+    
+    <book id="b21">
         <title>A Touch of Darkness</title>
         <author>Scarlett St. Clair</author>
         <genre>Fantasy Romance</genre>
         <price>750.00</price>
         <year>2019</year>
         <isbn>978-0-306-40635-7</isbn>
-        <stock>16</stock>
+        <quantity>16</quantity>
         <image>images/a-touch-of-darkness.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Persephone is the Goddess of Spring by title only. The truth is, since she was a little girl, flowers have shriveled at her touch. After moving to New Athens, she hopes to lead an unassuming life disguised as a mortal journalist.
-
-                    Hades, God of the Dead, has built a gambling empire in the mortal world and his favorite bets are rumored to be impossible.
-
-                    After a chance encounter with Hades, Persephone finds herself in a contract with the God of the Dead and the terms are impossible: Persephone must create life in the Underworld or lose her freedom forever.
-
-                    The bet does more than expose Persephone's failure as a Goddess, however. As she struggles to sow the seeds of her freedom, love for the God of the Dead grows—and it's forbidden.</description>
+        <link>../contact.html</link>
+        <description>Persephone is the Goddess of Spring by title only. After moving to New Athens, she hopes to live quietly as a mortal journalist. But after a chance encounter with Hades, she is forced into a contract that may cost her freedom—and her heart.</description>
     </book>
-
-    <book>
+    
+    <book id="b22">
         <title>Twisted Love</title>
         <author>Ana Huang</author>
         <genre>Romance Fiction</genre>
         <price>525.00</price>
         <year>2021</year>
         <isbn>978-0-306-40621-7</isbn>
-        <stock>28</stock>
+        <quantity>28</quantity>
         <image>images/twisted-love.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>He has a heart of ice…but for her, he'd burn the world
-                    A diverse new adult steamy romance from Tiktok sensation and USA Today bestselling author Ana Huang.
-                    Alex Volkov is a devil blessed with the face of an angel and cursed with a past he can't escape.
-                    Driven by a tragedy that has haunted him for most of his life, his ruthless pursuits for success and vengeance leave little room for matters of the heart.
-                    But when he's forced to look after his best friend's sister, he starts to feel something in his chest:
-                    A crack.
-
-                    A melt.
-
-                    A fire that could end his world as he knew it.
-
-                    ***
-
-                    Ava Chen is a free spirit trapped by nightmares of a childhood she can't remember.
-                    But despite her broken past, she's never stopped seeing the beauty in the world...including the heart beneath the icy exterior of a man she shouldn't want.
-                    Her brother's best friend.
-
-                    Her neighbor.
-
-                    Her savior and her downfall.
-
-                    Theirs is a love that was never supposed to happen-but when it does, it unleashes secrets that could destroy them both...and everything they hold dear.</description>
+        <link>../contact.html</link>
+        <description>Alex Volkov has a heart of ice, but when he is forced to look after his best friend's sister, Ava Chen, he begins to feel something dangerous. Their forbidden romance unleashes secrets that could destroy them both.</description>
     </book>
-
-    <book>
+    
+    <book id="b23">
         <title>Twisted Lies</title>
         <author>Ana Huang</author>
         <genre>Romance Fiction</genre>
         <price>600.00</price>
         <year>2022</year>
         <isbn>978-0-306-40622-7</isbn>
-        <stock>20</stock>
+        <quantity>20</quantity>
         <image>images/twisted-lies.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Charming, deadly, and smart enough to hide it, Christian Harper is a monster dressed in the perfectly tailored suits of a gentleman.
-                    He has little use for morals and even less use for love, but he can't deny the strange pull he feels toward the woman living just one floor below him.
-                    She's the object of his darkest desires, the only puzzle he can't solve. And when the opportunity to get closer to her arises, he breaks his own rules to offer her a deal she can't refuse.
-                    Every monster has their weakness. She's his.
-
-                    His obsession.
-
-                    His addiction.
-
-                    His only exception.
-
-                    ***
-
-                    Sweet, shy, and introverted despite her social media fame, Stella Alonso is a romantic who keeps her heart in a cage.
-                    Between her two jobs, she has little time or desire for a relationship.
-                    But when a threat from her past drives her into the arms―and house―of the most dangerous man she's ever met, she's tempted to let herself feel something for the first time in a long time.
-                    Because despite Christian's cold nature, he makes her feel everything when she's with him.
-
-                    Passionate.
-
-                    Protected.
-
-                    Truly wanted.</description>
+        <link>../contact.html</link>
+        <description>Christian Harper is charming, deadly, and smart enough to hide it. Stella Alonso is sweet, shy, and guarded. When a threat from her past pushes her toward him, a dangerous arrangement grows into something far more intense.</description>
     </book>
-
-    <book>
+    
+    <book id="b24">
         <title>King of Wrath</title>
         <author>Ana Huang</author>
         <genre>Romance Fiction</genre>
         <price>575.00</price>
         <year>2022</year>
         <isbn>978-0-306-40623-7</isbn>
-        <stock>19</stock>
+        <quantity>19</quantity>
         <image>images/king-of-wrath.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>She's the wife he never wanted...and the weakness he never saw coming.
-                    Ruthless. Meticulous. Arrogant.
-                    Dante Russo thrives on control, both personally and professionally.
-                    The billionaire CEO never planned to marry—until the threat of blackmail forces him into an engagement with a woman he barely knows.
-                    Vivian Lau, jewelry heiress and daughter of his newest enemy.
-                    It doesn't matter how beautiful or charming she is. He'll do everything in his power to destroy the evidence and their betrothal.
-                    There's only one problem: Now that he has her...he can't bring himself to let her go.
-
-                    ***
-
-                    Elegant. Ambitious. Well-mannered.
-                    Vivian Lau is the perfect daughter and her family's ticket into the highest echelons of high society.
-                    Marrying a blue-blooded Russo means opening doors that would otherwise remain closed to her new-money family.
-                    While the rude, elusive Dante isn't her idea of a dream partner, she agrees to their arranged marriage out of duty.
-                    Craving his touch was never part of the plan.
-                    Neither was the worst thing she could possibly do: fall in love with her future husband.</description>
+        <link>../contact.html</link>
+        <description>Dante Russo thrives on control, but blackmail forces him into an engagement with Vivian Lau. He plans to destroy the arrangement, but keeping his distance becomes harder when desire and duty collide.</description>
     </book>
-
-    <book>
+    
+    <book id="b25">
         <title>King Of Greed</title>
         <author>Ana Huang</author>
         <genre>Romance Fiction</genre>
         <price>600.00</price>
         <year>2023</year>
         <isbn>978-0-306-40624-7</isbn>
-        <stock>18</stock>
+        <quantity>18</quantity>
         <image>images/king-of-greed.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>He had her, he lost her…and he'll do anything to win her back.
-                    Powerful, brilliant, and ambitious, Dominic Davenport clawed his way up from nothing to become the King of Wall Street.
-                    He has everything—a beautiful home, a beautiful wife, and more money than he could spend in a lifetime. But no matter how much he accumulates, he's never satisfied.
-                    In his endless quest for more, he drives away the only person who saw him as enough.
-                    It isn't until she's gone that he realizes there may be more to life than riches and glory…but by then, it may be too late.
-
-                    ***
-
-                    Kind, intelligent, and thoughtful, Alessandra Davenport has played the role of trophy wife for years.
-                    She stood by her husband while he built an empire, but now that they've reached the top, she realizes he's no longer the man she fell for.
-                    When it becomes clear that she'll always come second to his work, she finally takes charge of her life and puts herself first—even if it means leaving the only man she's ever loved.
-                    But what she didn't count on was his refusal to let her go…or for him to fight for their marriage, no matter what it takes.</description>
+        <link>../contact.html</link>
+        <description>Dominic Davenport built an empire but drove away the only person who loved him for himself. Alessandra Davenport finally chooses herself, and Dominic must fight for the marriage he nearly destroyed.</description>
     </book>
-
-    <book>
+    
+    <book id="b26">
         <title>The Fine Print</title>
         <author>Lauren Asher</author>
         <genre>Romance Fiction</genre>
         <price>500.00</price>
         <year>2021</year>
         <isbn>978-0-306-40625-7</isbn>
-        <stock>12</stock>
+        <quantity>12</quantity>
         <image>images/the-fine-print.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Rowan
-                    I'm in the business of creating fairy tales.
-                    Theme parks. Production companies. Five-star hotels.
-                    Everything could be all mine if I renovated Dreamland.
-                    My initial idea of hiring Zahra was good in theory, but then I kissed her.
-                    Things spiraled out of control once I texted her using an alias.
-                    By the time I realized where I went wrong, it was too late.
-                    People like me don't get happy endings.
-                    Not when we're destined to ruin them.
-
-                    Zahra
-                    After submitting a drunk proposal criticizing Dreamland's most expensive ride, I should have been fired.
-                    Instead, Rowan Kane offered me a dream job.
-                    The catch? I had to work for the most difficult boss I'd ever met.
-                    Rowan was rude and completely off-limits, but my heart didn't care.
-                    At least not until I discovered his secret.
-                    It was time to teach the billionaire that money couldn't fix everything.
-                    Especially not us.</description>
+        <link>../contact.html</link>
+        <description>Rowan Kane is in the business of creating fairy tales, but hiring Zahra for Dreamland changes everything. Their professional arrangement spirals into something personal, and secrets threaten the possibility of a happy ending.</description>
     </book>
-
-    <book>
+    
+    <book id="b27">
         <title>Love Redesigned</title>
         <author>Lauren Asher</author>
         <genre>Romance Fiction</genre>
         <price>600.00</price>
         <year>2023</year>
         <isbn>978-0-306-40626-7</isbn>
-        <stock>16</stock>
+        <quantity>16</quantity>
         <image>images/love-redesigned.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Julian
-                    If I ever caught on fire, Dahlia Muñoz would fan the flames with a smile.
-                    So, when she returns to Lake Wisteria, I fully intend to avoid the interior designer.
-                    At least until my meddling mother exploits my savior complex.
-                    The faster I help Dahlia find her creative spark, the sooner she will leave town.
-                    But while I was busy getting rid of Dahlia, I overlooked one potential issue.
-                    What happens if I want her to stay?
-
-                    Dahlia
-                    People say the devil has many faces, but I know only one.
-                    Julian Lopez—my childhood rival and family frenemy.
-                    I vow to steer clear of him while recovering from my broken engagement, but then the billionaire makes an irresistible offer.
-                    Renovate a historic house together and triple our profits.
-                    Our temporary truce becomes compromised as we face years' worth of denied attraction and mixed emotions.
-                    Giving into our desire is inevitable…but falling in love?
-                    That isn't part of the plan.</description>
+        <link>../contact.html</link>
+        <description>Julian Lopez and Dahlia Muñoz are childhood rivals forced into a renovation project together. Their temporary truce grows complicated as old emotions and undeniable attraction return.</description>
     </book>
-
-    <book>
+    
+    <book id="b28">
         <title>Terms and Conditions</title>
         <author>Lauren Asher</author>
         <genre>Romance Fiction</genre>
         <price>600.00</price>
         <year>2022</year>
         <isbn>978-0-306-40627-7</isbn>
-        <stock>20</stock>
+        <quantity>20</quantity>
         <image>images/terms-and-conditions.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Declan
-                    I'm destined to become the next CEO of my family's media empire.
-                    The only problem? My grandfather's inheritance clause.
-                    Fulfilling his dying wish of getting married and having an heir seemed impossible until my assistant volunteers for the job.
-                    Our marriage was supposed to be the perfect solution to my biggest problem.
-                    But the more we act in love for the public, the more unsure I feel about our contract.
-                    Caring about Iris was never part of the deal.
-                    Especially not when breaking her heart is inevitable.
-
-                    Iris
-                    My plan to marry Declan was simple in theory.
-                    Move in together. Throw a wedding. Have a baby.
-                    We set rules to prevent any kind of issues.
-                    Ones that were never meant to be broken, no matter how much Declan tempts me.
-                    But what happens when our fake relationship bleeds into our real one?
-                    Falling in love was never an option.
-                    At least not for me.</description>
+        <link>../contact.html</link>
+        <description>Declan needs a wife to fulfill his grandfather's inheritance clause, and his assistant Iris offers the perfect fake solution. But when their contract starts to feel real, both risk getting hurt.</description>
     </book>
-
-    <book>
+    
+    <book id="b29">
         <title>Hunting Adeline</title>
         <author>H.D. Carlton</author>
         <genre>Dark Romance</genre>
         <price>1150.00</price>
         <year>2022</year>
         <isbn>978-0-306-40628-7</isbn>
-        <stock>20</stock>
+        <quantity>20</quantity>
         <image>images/hunting-adeline.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>The Diamond
-
-                    Death walks alongside me,
-                    But the reaper is no match for me.
-                    I'm trapped in a world full of monsters dressed as men, and those who aren't as they seem.
-                    They won't keep me forever.
-                    I no longer recognize the person I've become,
-                    And I'm fighting to find my way back to the beast who hunts me in the night.
-                    They call me a diamond,
-                    But they've only created an angel of death.
-
-                    The Hunter
-
-                    I was born a predator,
-                    With ruthlessness ingrained in my bones.
-                    When what's mine is stolen from me in the night,
-                    Like a diamond hidden within a fortress,
-                    I find that I can no longer contain the beast.
-                    Blood will paint the ground as I tear apart this world to find her.
-                    And bring her back to where she belongs.
-                    No one will escape my wrath,
-                    Especially not those who have betrayed me.</description>
+        <link>../contact.html</link>
+        <description>The Diamond Death walks alongside me, but the reaper is no match for me. Trapped in a world of monsters, Adeline fights to survive while the predator who hunts her tears apart the world to find her.</description>
     </book>
-
-    <book>
+    
+    <book id="b30">
         <title>Haunting Adeline</title>
         <author>H.D. Carlton</author>
         <genre>Dark Romance</genre>
         <price>1300.00</price>
         <year>2021</year>
         <isbn>978-0-306-40629-7</isbn>
-        <stock>21</stock>
+        <quantity>21</quantity>
         <image>images/haunting-adeline.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>The Manipulator
-
-                    I can manipulate the emotions of anyone who lets me.
-                    I will make you hurt, make you cry, make you laugh and sigh.
-                    But my words don't affect him. Especially not when I plead for him to leave.
-                    He's always there, watching and waiting.
-                    And I can never look away.
-                    Not when I want him to come closer.
-
-
-                    The Shadow
-
-                    I didn't mean to fall in love.
-                    But now that I have, I can't stay away.
-                    I'm mesmerized by her smile, by her eyes, and the way she moves.
-                    The way she undresses...
-                    I'll keep watching and waiting. Until I can make her mine.
-                    And once she is, I'll never let her go.
-                    Not even when she begs me to.</description>
+        <link>../contact.html</link>
+        <description>The Manipulator can bend emotions. The Shadow cannot stay away. Their obsession grows darker and more dangerous as desire, fear, and possession become impossible to separate.</description>
     </book>
-
-    <book>
+    
+    <book id="b31">
         <title>God of Malice</title>
         <author>Rina Kent</author>
         <genre>Dark Romance</genre>
         <price>800.00</price>
         <year>2022</year>
         <isbn>978-0-306-40630-7</isbn>
-        <stock>21</stock>
+        <quantity>21</quantity>
         <image>images/god-of-malice.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>I caught the attention of a monster.
-                    I didn't ask for it.
-                    Didn't even see it coming.
-                    But the moment I do, it's too late.
-                    Killian Carson is a predator wrapped in sophisticated charm.
-                    He's cold-blooded, manipulative, and savage.
-                    The worst part is that no one sees his devil side.
-                    I do.
-                    And that will cost me everything.
-                    I run, but the thing about monsters?
-                    They always chase.</description>
+        <link>../contact.html</link>
+        <description>I caught the attention of a monster. Killian Carson is cold-blooded, manipulative, and savage, and once he sees me, escape becomes impossible.</description>
     </book>
-
-    <book>
+    
+    <book id="b32">
         <title>God of Pain</title>
         <author>Rina Kent</author>
         <genre>Dark Romance</genre>
         <price>800.00</price>
         <year>2022</year>
         <isbn>978-0-306-40631-7</isbn>
-        <stock>21</stock>
+        <quantity>21</quantity>
         <image>images/god-of-pain.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>I made a terrible mistake.
-                    Being a mafia princess, I knew my fate was already decided.
-                    But I went ahead and longed for the wrong one.
-                    Creighton King is bad news with a gorgeous exterior.
-                    He's silent, brooding, and obviously emotionally unavailable.
-                    So I thought it was over.
-                    Until he awakens a beast inside me.
-                    My name is Annika Volkov, and I'm Creighton's worst enemy.
-                    He won't stop until he breaks me.
-                    Or I break him.</description>
+        <link>../contact.html</link>
+        <description>Annika Volkov longed for the wrong man. Creighton King is silent, dangerous, and emotionally unreachable, but their conflict awakens something destructive in them both.</description>
     </book>
-
-    <book>
+    
+    <book id="b33">
         <title>God of Wrath</title>
         <author>Rina Kent</author>
         <genre>Dark Romance</genre>
         <price>800.00</price>
         <year>2022</year>
         <isbn>978-0-306-40632-7</isbn>
-        <stock>20</stock>
+        <quantity>20</quantity>
         <image>images/god-of-wrath.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>When Cecily Knight sneaks into the Heathen Club's initiation on behalf of a rival gang, she's confident she can slip through the night unnoticed.
-                    But the moment she steps into their den, she knows she's made a fatal error. The devil has seen her.
-                    Jeremy Volkov may not technically be the devil, but as far as Cecily's concerned, he's close enough.
-                    He's not just a member of the Heathens—he's their ruthless leader and the heir to the Russian Bratva.
-
-                    And now, Jeremy wants one thing: Cecily.
-                    He claims it's to protect her, but Cecily knows better. He wants to possess her, own her, make her his.
-                    But Cecily is not about to be dragged into his blood-soaked world... or is she?</description>
+        <link>../contact.html</link>
+        <description>When Cecily Knight sneaks into the Heathen Club on behalf of a rival gang, she catches the eye of Jeremy Volkov, the ruthless heir to the Russian Bratva, who wants to claim her for himself.</description>
     </book>
-
-    <book>
+    
+    <book id="b34">
         <title>The Sweetest Oblivion</title>
         <author>Danielle Lori</author>
         <genre>Dark Romance</genre>
         <price>1050.00</price>
         <year>2018</year>
         <isbn>978-0-306-40633-7</isbn>
-        <stock>13</stock>
+        <quantity>13</quantity>
         <image>images/the-sweetest-oblivion.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>She's a romantic at heart, living in the most unromantic of worlds... Nicknamed Sweet Abelli for her docile nature, Elena smiles on cue and has a charming response for everything. She's the favored daughter, the perfect mafia principessa... or was. Now, all she can see in the mirror's reflection is blood staining her hands like crimson paint. They say first impressions are everything...
-
-                    In the murky waters of New York's underworld, Elena's sister is arranged to marry Nicolas Russo. A Made Man, a boss, a cheat—even measured against mafia standards. His reputation stretches far and wide and is darker than his black suits and ties. After his and Elena's first encounter ends with an accidental glare on her part, she realizes he's just as rude as he is handsome. She doesn’t like the man or anything he stands for, though that doesn't stop her heart from pattering like rain against glass when he's near, nor the shiver that ghosts down her spine at the sound of his voice. And he's always near. Telling her what to do. Making her feel hotter than any future brother-in-law should. Elena may be the Sweet Abelli on the outside, but she's beginning to learn she has a taste for the darkness, for rough hands, cigarettes, and whiskey-colored eyes. Having already escaped one scandal, however, she can hardly afford to be swept up in another. Besides, even if he were hers, everyone knows you don't fall in love with a Made Man... Right?</description>
+        <link>../contact.html</link>
+        <description>Elena Abelli is a romantic at heart living in the mafia underworld. When her sister is arranged to marry Nicolas Russo, Elena finds herself drawn to the one man she should never want.</description>
     </book>
-
-    <book>
-        <title>The Maddest Obsession </title>
+    
+    <book id="b35">
+        <title>The Maddest Obsession</title>
         <author>Danielle Lori</author>
         <genre>Dark Romance</genre>
         <price>1025.00</price>
         <year>2019</year>
         <isbn>978-0-306-40634-7</isbn>
-        <stock>13</stock>
+        <quantity>13</quantity>
         <image>images/the-maddest-obsession.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>She fears the dark.
-                    He rules it.
-
-                    Her dresses are too tight, her heels too tall. She laughs too loudly, eats without decorum, and mixes up most sayings in the book. Little do most know it's just a sparkly disguise, there to hide one panic attack at a time.
-
-                    Nobody can crack Gianna's facade . . . no one anyway, until he comes along.
-
-                    Most see a paragon of morality; a special agent upholding the law. In the New York underworld, others know him as a hustler, a killer, his nature as cold as the heart of ice in his chest. Christian Allister has always followed the life plan he'd envisioned in his youth, beneath the harsh lights of a frigid, damp cell. With a proclivity for order and the number three, he's never been tempted to veer off course. But perhaps one should never say never . . .
-
-                    One winter night and their lives intertwine. She hates him—his stone-cold demeanor, his arrogance and too-perceptive eye—but over the years, even as their games consist of insulting each other's looks and intelligence, she begins to live to play with him.
-
-                    Nowhere in Christian's plans had he ever prepared for Gianna. She's chaos embodied, not his type, and married, but none of that can stop his eyes from following her wherever she goes.
-
-                    All along, she doesn't even know that she's his—his frustration, his fascination.</description>
+        <link>../contact.html</link>
+        <description>Gianna wears chaos like glitter, while Christian Allister is cold order personified. Their lives intertwine over years of rivalry, fascination, and attraction neither can control.</description>
     </book>
-
-    <book>
+    
+    <book id="b36">
         <title>The Sinner</title>
         <author>Shantel Tessier</author>
         <genre>Dark Romance</genre>
         <price>1280.00</price>
         <year>2022</year>
         <isbn>978-0-306-40636-7</isbn>
-        <stock>16</stock>
+        <quantity>16</quantity>
         <image>images/the-sinner.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>LITTLE DEMON
-                    I was raised in a world where money and power are at your fingertips. My father is a LORD, a very respected member of a secret society that knows no bounds. When tragedy struck my family, we discovered we weren't untouchable. Just when I thought life couldn't get any worse, I was shown what hell is really like. Then he came and saved me. The devil disguised as my personal hero. But of course, nothing is for free. Not when a soul is up for grabs.
-
-
-                    I VOW. YOU VOW. WE VOW.
-                    Easton Bradley Sinnett—Sin—uses his power for his own sick pleasure. Like a typical Lord, he never thought about the consequences of his actions. I grew up with him, obsessed over him, craved him. He was who I pictured when I imagined doing things my body shouldn't want.
-
-                    One day, I realized he was not who I thought he was. It didn't change anything, though, because I was already too far gone. If anything, I fell for him harder.
-
-                    Every now and then, someone enters your life who flips it upside down. Sin wrecked me in the worst way, and I thanked him for it by serving on my knees.
-
-                    As they say, nothing lasts forever. Men like him never stay with a woman like me. I'm what they use, not keep. So when he threw me away, I shouldn't have been all that surprised.
-
-                    My body had always craved the darker side of love. The kind that left bruises and scars. I was what most would call unholy. And when the devil whispered in my ear that he loved me, I was more than determined to show him just how devoted I could be.</description>
+        <link>../contact.html</link>
+        <description>Raised in a world of money and secret power, she falls for Easton Bradley Sinnett—Sin—a man whose darkness wrecks her in the worst way, yet she cannot stop craving him.</description>
     </book>
-
-    <book>
+    
+    <book id="b37">
         <title>Priest</title>
         <author>Sierra Simone</author>
         <genre>Dark Romance</genre>
         <price>550.00</price>
         <year>2022</year>
         <isbn>978-0-306-40637-7</isbn>
-        <stock>18</stock>
+        <quantity>18</quantity>
         <image>images/the-priest.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>He's a priest, and here is his confession.
-
-                    There are many rules a priest can't break. A priest cannot marry. A priest cannot abandon his flock. A priest cannot forsake his God. Tyler Bell has had no problem playing by the rules for the last three years after a family tragedy set him on the path to priesthood. That all changes when the delicious, sultry voice of Poppy Danforth sinks its claws in him through the screen of his confessional booth, and he can't get her sins out of his head.
-
-                    It should be easy to put his impure thoughts of her to rest, considering the vows Tyler has taken. It should be nothing to overcome what the sight and sound of her does to him, when his life with the Church means everything. But once he has his first forbidden taste of those red lips, Tyler can't help but break all his rules for Poppy-no matter what it might cost them both.</description>
+        <link>../contact.html</link>
+        <description>Tyler Bell has followed every rule of priesthood until Poppy Danforth enters his confessional and his forbidden thoughts become impossible to silence.</description>
     </book>
-
-    <book>
+    
+    <book id="b38">
         <title>The Hybrid Prince</title>
         <author>Tui T. Sutherland</author>
         <genre>Children</genre>
         <price>850.00</price>
         <year>2026</year>
         <isbn>978-0-306-40638-7</isbn>
-        <stock>23</stock>
+        <quantity>23</quantity>
         <image>images/the-hybrid-prince.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description> In THE HYBRID PRINCE, MudWing siblings Umber and Sora flee the Jade Mountain academy after an explosion set by Sora killed two students. They fly away as far and fast as they can over desolate islands, only stopping when they must.</description>
+        <link>../contact.html</link>
+        <description>In The Hybrid Prince, MudWing siblings Umber and Sora flee Jade Mountain Academy after an explosion set by Sora kills two students. They fly across desolate islands trying to survive and escape the consequences.</description>
     </book>
-
-    <book>
+    
+    <book id="b39">
         <title>Escaping Peril</title>
         <author>Tui T. Sutherland</author>
         <genre>Children</genre>
         <price>850.00</price>
         <year>2025</year>
         <isbn>978-0-306-40639-7</isbn>
-        <stock>21</stock>
+        <quantity>21</quantity>
         <image>images/escaping-peril-the-graphic-novel.jpeg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>A dragon named Peril, known for her deadly firescales, must find and stop Queen Scarlet from threatening Jade Mountain Academy while questioning her own loyalty and worth.</description>
+        <link>../contact.html</link>
+        <description>Peril, a dragon known for her deadly firescales, must stop Queen Scarlet from threatening Jade Mountain Academy while questioning her own loyalty and worth.</description>
     </book>
-
-    <book>
+    
+    <book id="b40">
         <title>Better Than A Touchdown</title>
         <author>Jalen Hurts</author>
         <genre>Children</genre>
         <price>700.00</price>
         <year>2026</year>
         <isbn>978-0-306-40640-7</isbn>
-        <stock>18</stock>
+        <quantity>18</quantity>
         <image>images/better-than-a-touchdown.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>From Philadelphia Eagles quarterback Jalen Hurts comes an empowering story about friendship, community, and the power of teamwork to achieve the greatest goals. Jalen is so excited for the new school year because this is the year he'll finally get to try out for the football team!</description>
+        <link>../contact.html</link>
+        <description>From Philadelphia Eagles quarterback Jalen Hurts comes an empowering story about friendship, community, and the power of teamwork. Jalen is excited for the new school year because he finally gets to try out for the football team.</description>
     </book>
-
-    <book>
-        <title>The Adventures of Tubby Nugget</title>
+    
+    <book id="b41">
+        <title>The Adventures Of Tubby Nugget</title>
         <author>Jenine Pastores and Josh Jackson</author>
         <genre>Children</genre>
         <price>890.00</price>
         <year>2026</year>
         <isbn>978-0-306-40641-7</isbn>
-        <stock>23</stock>
+        <quantity>23</quantity>
         <image>images/the-adventures-of-tubby-nugget.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Tubby refuses the "dunking" ceremony, a tradition on Planet Nüg that turns small nugs into golden, serious, and limited adults, opting instead for a fun, creative life.</description>
+        <link>../contact.html</link>
+        <description>Tubby refuses the dunking ceremony, a tradition on Planet Nüg that turns small nugs into serious adults, choosing instead a fun, creative life full of imagination.</description>
     </book>
-
-    <book>
+    
+    <book id="b42">
         <title>Mother Bruce</title>
-        <author>Ryan T.Higgins</author>
+        <author>Ryan T. Higgins</author>
         <genre>Children</genre>
         <price>500.00</price>
         <year>2015</year>
         <isbn>978-0-306-40642-7</isbn>
-        <stock>20</stock>
+        <quantity>20</quantity>
         <image>images/mother-bruce.jpg</image>
-        <purchaseLink>../contact.html</purchaseLink>
-        <description>Bruce the bear likes to keep to himself. That, and eat eggs. But when his hard-boiled goose eggs turn out to be real, live goslings, he starts to lose his appetite. And even worse, the goslings are convinced he's their mother. Bruce tries to get the geese to go south, but he can't seem to rid himself of his new companions. What's a bear to do?</description>
+        <link>../contact.html</link>
+        <description>Bruce the bear likes to keep to himself and eat eggs. But when his hard-boiled goose eggs hatch into goslings who think he is their mother, everything changes.</description>
     </book>
-
 </bookshop>
