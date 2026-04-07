@@ -1,27 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- XSLT stylesheet to transform books.xml into a styled HTML catalogue -->
 <xsl:stylesheet version="1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   
+  <!-- Output as HTML -->
   <xsl:output method="html" indent="yes" encoding="UTF-8"/>
   
+  <!-- Main template -->
   <xsl:template match="/">
     <html lang="en">
       <head>
         <meta charset="UTF-8"/>
-        <title>Bookshop XML Catalogue</title>
+        <title>Bookshop Catalogue</title>
         
-        <script>
-          window.onload = function() {
-          if (window.location.hash) {
-          var id = window.location.hash.substring(1);
-          var el = document.getElementById(id);
-          if (el) {
-          el.scrollIntoView();
-          }
-          }
-          }
-        </script>
-        
+        <!-- Internal styling -->
         <style>
           body {
           font-family: Arial, sans-serif;
@@ -103,8 +96,7 @@
           font-weight: bold;
           }
           
-          .back-top,
-          .back-link {
+          .back-top {
           margin-top: 20px;
           }
           
@@ -119,19 +111,26 @@
           }
           
           .back-link {
-          text-align: center;
-          margin-top: 30px;
+          margin-bottom: 25px;
           }
         </style>
       </head>
       
       <body>
         <div class="container">
+          
+          <!-- Back to Shop button moved to top -->
+          <div class="back-link">
+            <a href="../shop.html">Back to Shop</a>
+          </div>
+          
+          <!-- Top anchor for returning to catalogue -->
           <a id="top"></a>
           
-          <h1>Bookshop XML Catalogue</h1>
+          <h1>Bookshop Catalogue</h1>
           <p class="subtitle">Click on a book to view its full details.</p>
           
+          <!-- Table showing all books -->
           <table>
             <tr>
               <th>Title</th>
@@ -141,6 +140,7 @@
               <th>View</th>
             </tr>
             
+            <!-- Loop through each book for table rows -->
             <xsl:for-each select="bookshop/book">
               <tr>
                 <td><xsl:value-of select="title"/></td>
@@ -157,6 +157,7 @@
             </xsl:for-each>
           </table>
           
+          <!-- Detailed section for each book -->
           <xsl:for-each select="bookshop/book">
             <div class="detail-section">
               <xsl:attribute name="id"><xsl:value-of select="@id"/></xsl:attribute>
@@ -205,15 +206,13 @@
                 <xsl:value-of select="description"/>
               </div>
               
+              <!-- Back to catalogue anchor -->
               <div class="back-top">
                 <a href="#top">Back to Catalogue</a>
               </div>
             </div>
           </xsl:for-each>
           
-          <div class="back-link">
-            <a href="../shop.html">Back to Shop</a>
-          </div>
         </div>
       </body>
     </html>

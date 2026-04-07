@@ -1,9 +1,22 @@
-/* removes default browser spacing */
+/* === RESET === */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+/* === GLOBAL === */
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #795b3285;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 20px;
+}
+
+/* === VIDEO BACKGROUND === */
 /* Video fills the whole viewport and sits behind everything else */
 video {
     position: fixed;
@@ -15,13 +28,13 @@ video {
     z-index: -1;
 }
 
-/* Nav  */
+/* === FIXED NAV (ID-based, used by index/contact pages) === */
 #Nav img {
     width: 30px;
     height: 30px;
 }
 
-/* Fixed top-right,stays visible while the page content sits below */
+/* Fixed top-right, stays visible while the page content sits below */
 #Nav {
     position: fixed;
     top: 20px;
@@ -32,11 +45,10 @@ video {
     list-style: none;
     display: flex;
     gap: 30px;
-
 }
 
 #Nav ul li {
-    margin-bottom: 0px;
+    margin-bottom: 0;
     display: flex;
     align-items: center;
 }
@@ -48,19 +60,20 @@ video {
     margin-left: 8px;
 }
 
-/* Logo position */
+/* === LOGO === */
 #Logo {
     position: fixed;
     top: 10px;
     left: 10px;
 }
+
 #Logo img {
     width: 45px;
     height: 45px;
 }
 
-/* Homepage*/
-/* Center using position fixed and transform translate to centered on all screen sizes */
+/* === SHOP BUTTON (homepage) === */
+/* Centred using position fixed and transform translate */
 #Shopbutton {
     position: fixed;
     top: 50%;
@@ -75,7 +88,7 @@ video {
     margin-bottom: 20px;
 }
 
-/* used a border to style the Shop link as a button */
+/* Styled as a button using a border */
 #Shopbutton a {
     color: #090909;
     text-decoration: none;
@@ -84,8 +97,8 @@ video {
     font-size: 1em;
 }
 
-/* Contact page */
-/* Same centering approach as the homepage,laid out as a two-column flex row */
+/* === CONTACT PAGE === */
+/* Centred as a two-column flex row */
 #contactpage {
     position: fixed;
     top: 50%;
@@ -95,7 +108,7 @@ video {
     gap: 80px;
     align-items: center;
 }
-/* Contact h1 on the left side */
+
 #contactleft h1 {
     font-size: 2.5em;
     color: #0d0c0c;
@@ -115,7 +128,6 @@ video {
     gap: 10px;
 }
 
-/* Transparent background */
 #contactright input {
     padding: 10px;
     font-size: 1em;
@@ -135,7 +147,7 @@ video {
     height: 120px;
 }
 
-/* styled the send link to look like a button using background color and padding */
+/* Send link styled as a button */
 #contactright a {
     background-color: #795b3285;
     color: #000000;
@@ -144,99 +156,214 @@ video {
     text-align: center;
     font-size: 1em;
 }
-/*madhav*/
-body{
-    margin: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: #795b3285;
-    overflow-x: hidden;
+
+/* === NAVBAR (class-based, used by shop / about / genres pages) === */
+/* Horizontal flex row with dark brown background */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    background-color: rgba(57, 34, 2, 0.88);
+    padding: 15px 40px;
 }
 
-main{
-    padding: 20px;
-}
-
-.navbar ul{
-    list-style-type: none;
-    background-color: #392202c9;
-    padding: 0px;
-    margin: 0px;
-    overflow: hidden;
-}
-
-.navbar a{
-    color: black;
+/* Light, bold links with rounded hover state */
+.navbar a {
+    color: #f8f1e8;
     text-decoration: none;
-    padding: 15px;
-    display: block;
-    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 8px;
+    transition: 0.3s;
 }
 
-.navbar a:hover{
-    color: white;
-    background-color: hsl(0, 0%, 10%);
+.navbar a:hover {
+    background-color: rgba(255, 255, 255, 0.12);
 }
 
-.navbar li{
-    float: left;
+/* === ABOUT PAGE === */
+.about-page h1 {
+    color: #E1CFB9;
 }
 
-/*About Page*/
-.about-page p{
+.about-page p {
     text-align: justify;
 }
 
-.openinghrs{
+/* Page background image with dark overlay */
+body.about-page {
+    background: linear-gradient(rgba(40, 25, 15, 0.45), rgba(40, 25, 15, 0.45)),
+                url("aboutpagebackground.jpg") center/cover no-repeat fixed;
+    color: #000000;
+}
+
+/* Top banner */
+header {
+    background-color: rgba(245, 235, 220, 0.92);
+    padding: 20px 40px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    color: #23160f;
+}
+
+/* Constrained content container */
+.about-container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 40px auto;
+}
+
+/* Boxed content sections */
+.about-card {
+    background-color: rgba(248, 241, 232, 0.94);
+    padding: 28px;
+    border-radius: 14px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+
+.about-card h2,
+.about-card h3 {
+    color: #3b281d;
+    margin-bottom: 15px;
+}
+
+.about-card h2 {
+    font-size: 2.3rem;
+}
+
+.about-card h3 {
+    font-size: 1.8rem;
+}
+
+.about-card p {
+    line-height: 1.8;
+    font-size: 1.08rem;
+    text-align: justify;
+}
+
+.about-card ol {
     padding-left: 20px;
 }
 
-.openinghrs table{
+/* Opening hours section */
+.openinghrs {
+    padding-left: 20px;
+}
+
+.openinghrs table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.openinghrs th,
+.openinghrs td {
+    border: 1px solid #b79f8b;
+    padding: 12px;
     text-align: center;
 }
 
-/*Shop Page*/
-.shop-page h2{
+.openinghrs th {
+    background-color: #d8c1aa;
+}
+
+.openinghrs td {
+    background-color: #f8f1e8;
+}
+
+/* Feature highlight boxes */
+.feature-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.feature-box {
+    flex: 1;
+    min-width: 220px;
+    background-color: #efe3d6;
+    padding: 18px;
+    border-radius: 12px;
+}
+
+.feature-box h4 {
+    margin-bottom: 10px;
+    color: #3b281d;
+}
+
+/* === SHOP PAGE === */
+.shop-page h1 {
     padding-left: 10px;
 }
 
-.shop-page h1{
+.shop-page h2 {
     padding-left: 10px;
-
 }
 
-.shop-page img{
-    height: 200px;
+/* Grid layout for book cards — auto-fills columns, wraps as needed */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 20px;
+    padding: 10px 10px 20px 10px;
+}
+
+/* Each book is a full clickable block, no underline */
+.book-grid a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Underline title on hover */
+.book-grid a:hover .title {
+    text-decoration: underline;
+}
+
+/* Book cover image — portrait ratio, cropped to fit */
+.shop-page img {
     width: 150px;
-    padding: 0 25px;
+    height: 220px;
+    display: block;
     margin: 0 auto;
+    object-fit: cover;
 }
 
-.shop-page .title{
+/* Title text below the cover */
+.shop-page .title {
     text-align: center;
     padding: 0;
     min-height: 60px;
-    width: 200px;
-    margin: 4px 0 2px 0;
+    width: 150px;
+    margin: 4px auto 2px auto;
 }
 
-.shop-page .price{
+/* Price text */
+.shop-page .price {
     text-align: center;
     margin: 0;
 }
 
+/* Filter By heading */
 .filterby {
     padding-left: 10px;
-    margin: 0px;
+    margin: 0;
     padding-top: 22px;
     padding-bottom: 2px;
 }
 
-.genresbtn{
-    position: absolute;
-    top: 100px;
-    left: 107px;
-    margin: 0px;
-    padding: 7px;
+/* Genres pill button — sits in normal document flow */
+.genresbtn {
+    display: inline-block;
+    margin: 8px 0 8px 10px;
+    padding: 7px 14px;
     color: black;
     border: 2px solid hsl(0, 0%, 25%);
     border-radius: 20px;
@@ -248,20 +375,25 @@ main{
     background-color: hsl(0, 0%, 10%);
 }
 
-/*Genres Page*/
-.genres-page h1{
+/* === GENRES PAGE === */
+.genres-page h1 {
     padding-left: 10px;
 }
 
-.genres-page h2{
+.genres-page h2 {
     padding-left: 10px;
 }
 
+/* Fixed portrait dimensions matching God of Malice — object-fit prevents distortion */
 .genres-page img {
-  width: 100%;
+    width: 200px;
+    height: 280px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
 
-.genres-page .title{
+.genres-page .title {
     text-align: center;
     padding: 0;
     min-height: 60px;
@@ -269,33 +401,37 @@ main{
     margin: 4px 0 2px 0;
 }
 
-.genres-page .price{
+.genres-page .price {
     text-align: center;
     margin: 0;
 }
 
+/* Horizontal scrolling book row */
 .hscroll {
-  display: flex;
-  gap: 20px;
-  overflow-x: auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-  width: calc(100% - 20px);
-  margin-right: 20px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: calc(100% - 20px);
+    margin-right: 20px;
 }
 
+/* Hide scrollbar in WebKit browsers */
 .hscroll::-webkit-scrollbar {
-  display: none;
+    display: none;
 }
 
+/* Individual book card in the genres horizontal scroll */
 .bookcard {
-  flex: 0 0 200px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+    flex: 0 0 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+/* === XML CATALOG LINK === */
 .xml-catalog-link {
     margin: 20px 0;
     text-align: center;

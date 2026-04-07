@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Link XML to XSLT stylesheet -->
 <?xml-stylesheet type="text/xsl" href="books.xsl"?>
+
+<!-- Link XML to DTD for validation -->
 <!DOCTYPE bookshop SYSTEM "bookshop.dtd">
 
+<!-- Root element containing all books -->
 <bookshop>
     <book id="b1">
         <title>The Mountain Is You</title>
@@ -29,6 +34,7 @@
         <description>No matter your goals, Atomic Habits offers a proven framework for improving—every day. James Clear, one of the world's leading experts on habit formation, reveals practical strategies that will teach you exactly how to form good habits, break bad ones, and master the tiny behaviors that lead to remarkable results.</description>
     </book>
     
+
     <book id="b3">
         <title>The Psychology Of Money</title>
         <author>Morgan Housel</author>
@@ -65,7 +71,7 @@
         <quantity>10</quantity>
         <image>images/the-subtle-art-of-not-giving-a-fuck.jpg</image>
         <link>../contact.html</link>
-        <description>There are only so many things we can give a f**k about so we need to figure out which ones really matter, Manson makes clear. While money is nice, caring about what you do with your life is better, because true wealth is about experience. A much-needed grab-you-by-the-shoulders-and-look-you-in-the-eye moment of real-talk, filled with entertaining stories and profane, ruthless humor, The Subtle Art of Not Giving a F**k is a refreshing slap for a generation to help them lead contented, grounded lives.</description>
+        <description>There are only so many things we can give a f*k about so we need to figure out which ones really matter, Manson makes clear. While money is nice, caring about what you do with your life is better, because true wealth is about experience. A much-needed grab-you-by-the-shoulders-and-look-you-in-the-eye moment of real-talk, filled with entertaining stories and profane, ruthless humor, The Subtle Art of Not Giving a F*k is a refreshing slap for a generation to help them lead contented, grounded lives.</description>
     </book>
     
     <book id="b6">
