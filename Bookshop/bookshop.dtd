@@ -1,12 +1,14 @@
 <!ELEMENT bookshop (book+)>
-<!ELEMENT book (title, author, genre, price, year, isbn, stock, image, purchaseLink, description)>
+<!ELEMENT book (title, author, genre, price, year, isbn, quantity, image, link, description)>
+<!ATTLIST book id ID #REQUIRED>
+
 <!ELEMENT title (#PCDATA)>
 <!ELEMENT author (#PCDATA)>
 <!ELEMENT genre (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
 <!ELEMENT year (#PCDATA)>
 <!ELEMENT isbn (#PCDATA)>
-<!ELEMENT stock (#PCDATA)>
+<!ELEMENT quantity (#PCDATA)>
 <!ELEMENT image (#PCDATA)>
-<!ELEMENT purchaseLink (#PCDATA)>
+<!ELEMENT link (#PCDATA)>
 <!ELEMENT description (#PCDATA)>
